@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  background-color: #000000;
+  color: Yellow;
+  letter-spacing: 5px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.back {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../images/code.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.back1 {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../images/code1.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
