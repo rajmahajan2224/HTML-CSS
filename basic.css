@@ -18,20 +18,29 @@ header {
   background-color: #000;
 }
 
+.main .logo img {
+  width: 160px;
+  height: 160px;
+  cursor: pointer;
+}
+
 .main nav {
   width: 450px;
   display: flex;
   justify-content: space-around;
   align-items: center;  
+  margin-right: 550px;
 }
+
 
 .main nav a {
   text-decoration: none;
   font-weight: lighter;
   font-size: 22px;
-  color: #fff;
+  color: #fff; 
   margin-left: 45px;
 }
+
 
 .main nav a:hover {
   color: yellow;
@@ -47,4 +56,56 @@ header {
   background-image: linear-gradient(to right, #649bff, #0070fa, #649bff);
   border-radius: 10px;
   cursor: pointer;
+}
+
+.head-left h1 {
+  font-size: 35px;
+  text-transform: capitalize;
+  font-weight: lighter;
+  margin-top: 120px;
+  padding-left: 25px;
+}
+
+.head-left h2 {
+  font-size: 30px;
+  text-transform: capitalize;
+  font-weight: lighter;
+  margin-top: 15px;
+  padding-left: 25px;
+}
+
+.head-left p {
+  font-size: 30px;
+  text-transform: capitalize;
+  font-weight: lighter;
+  margin-top: 15px;
+  padding-left: 25px;
+}
+
+.head-left button {
+  padding: 10px 45px;
+  margin-left: 20px;
+  margin-top: 28px;
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+  border: none;
+  background-image: linear-gradient(to right, #649bff, #0070fa, #649bff);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.head-left button:hover {
+  animation: mover 2s infinite  alternate;
+}
+
+.head-right img {
+  margin-top: -21em;
+  margin-left: 55em;
+  animation: mover 2s infinite  alternate;
+}
+
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
 }
