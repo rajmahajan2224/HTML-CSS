@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  background: cyan;
+}
+
+section div {
+  width: 30%;
+  padding: 20PX;
+  border: 1PX solid #000;
+}
+
+.flex1 {
+  /* flex: 2; */
+  background: red;
+}
+
+
+.flex2 {
+  /* flex: 1; */
+  background: yellow;
+}
+
+
+.flex3 {
+  /* flex: 1; */
+  background: green;
+}
+
+@media(min-width: 768px) {
+  section {
+    display: flex;
+    justify-content: space-between;
+  }
+}
